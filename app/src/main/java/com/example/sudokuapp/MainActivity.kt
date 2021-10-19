@@ -9,10 +9,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-    }
-    val scanButton = findViewById<Button>(R.id.button2)
+        val scanButton = findViewById<Button>(R.id.button2)
         scanButton.setOnClickListener{
             val cameraIntent = Intent(this, CameraActivity::class.java)
             startActivity(cameraIntent)
         }
+    }
 }
