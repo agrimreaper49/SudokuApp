@@ -1,114 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:padding="4dp"
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="16dp"
         android:background="#008080"
         android:padding="5dp"
         android:text="The Manual Button"
         android:textColor="#fff"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:text="Welcome to the Manual Activity"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp"
-        android:textStyle="bold" />
-    <TableLayout android:background="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
         android:paddingLeft="5dp"
-        android:paddingRight="5dp">
-
-        <TextView
-            android:id="@+id/txt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        </TextView>
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
 
 
-        <TableRow android:background="#FFFFFF" android:padding="5dp">
+        <TableRow
+            android:background="#F0F7F7"
+            android:padding="5dp">
 
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:layout_margin="20dp"/>
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
         </TableRow>
-        <TableRow android:background="#F0F7F7" android:padding="5dp">
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
-        </TableRow>
-        <TableRow android:background="#F0F7F7" android:padding="5dp">
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+
+        <TableRow
+            android:background="#F0F7F7"
+            android:padding="5dp">
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
 
-        </TableRow>
-        <TableRow android:background="#F0F7F7" android:padding="5dp">
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -116,19 +105,25 @@
 
         </TableRow>
 
-        <TableRow android:background="#F0F7F7" android:padding="5dp">
+        <TableRow
+            android:background="#F0F7F7"
+            android:padding="5dp">
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -136,19 +131,51 @@
 
         </TableRow>
 
-        <TableRow android:background="#F0F7F7" android:padding="5dp">
+        <TableRow
+            android:background="#F0F7F7"
+            android:padding="5dp">
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#F0F7F7"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -157,5 +184,5 @@
 
     </TableLayout>
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
