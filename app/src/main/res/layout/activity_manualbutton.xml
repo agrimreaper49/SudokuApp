@@ -55,8 +55,7 @@
 
 
         <TableRow
-            android:background="@drawable/table_border"
-            android:padding="5dp">
+            android:background="@drawable/table_border">
 
             <EditText
                 android:layout_width="50dp"
@@ -84,39 +83,8 @@
         </TableRow>
 
         <TableRow
-            android:background="@drawable/table_border"
-            android:padding="5dp">
+            android:background="@drawable/table_border">
 
-
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:background="@drawable/table_border" />
-
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:background="@drawable/table_border" />
-
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:background="@drawable/table_border" />
-
-            <TextView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:background="@drawable/table_border" />
-
-        </TableRow>
-
-        <TableRow
-            android:background="@drawable/table_border"
-            android:padding="5dp">
 
             <TextView
                 android:layout_width="50dp"
@@ -145,8 +113,7 @@
         </TableRow>
 
         <TableRow
-            android:background="@drawable/table_border"
-            android:padding="5dp">
+            android:background="@drawable/table_border">
 
             <TextView
                 android:layout_width="50dp"
@@ -175,8 +142,36 @@
         </TableRow>
 
         <TableRow
-            android:background="@drawable/table_border"
-            android:padding="5dp">
+            android:background="@drawable/table_border">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_border">
 
             <TextView
                 android:layout_width="50dp"
