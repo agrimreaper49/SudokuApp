@@ -45,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
         android:background="#000000"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
@@ -54,8 +55,271 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
 
-        <TableRow
-            android:background="@drawable/table_border">
+        <TableRow android:background="@drawable/table_border">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_border">
+
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_border">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_border">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_border">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
 
             <EditText
                 android:layout_width="50dp"
@@ -82,116 +346,228 @@
                 android:background="@drawable/table_border" />
         </TableRow>
 
-        <TableRow
-            android:background="@drawable/table_border">
+        <TableRow android:background="@drawable/table_border">
 
-
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
         </TableRow>
 
-        <TableRow
-            android:background="@drawable/table_border">
+        <TableRow android:background="@drawable/table_border">
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
         </TableRow>
 
-        <TableRow
-            android:background="@drawable/table_border">
+        <TableRow android:background="@drawable/table_border">
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
         </TableRow>
 
-        <TableRow
-            android:background="@drawable/table_border">
+        <TableRow android:background="@drawable/table_border">
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/table_border" />
 
-            <TextView
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_border" />
+
+            <EditText
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
