@@ -1,31 +1,89 @@
 package com.example.sudokuapp
 
-import android.content.Intent
-import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
-import android.widget.Button
-import android.widget.ImageView
+import android.Manifest
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.util.Log
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import android.Manifest
+import java.util.concurrent.Executors
+import androidx.camera.core.*
+import androidx.camera.lifecycle.ProcessCameraProvider
+import kotlinx.android.synthetic.main.activity_camera.*
+import kotlinx.android.synthetic.main.activity_main.*
+import java.io.File
+import java.nio.ByteBuffer
+import java.text.SimpleDateFormat
+import java.util.*
+import java.util.concurrent.ExecutorService
+typealias LumaListener = (luma: Double) -> Unit
 
 class CameraActivity : AppCompatActivity() {
-    private val cameraRequest = 1888
-    lateinit var imageView: ImageView
+    private var imageCapture: ImageCapture? = null
+
+    private lateinit var outputDirectory: File
+    private lateinit var cameraExecutor: ExecutorService
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera)
-        title = "KotlinApp"
-        if (ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.CAMERA)
-            == PackageManager.PERMISSION_DENIED)
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA), cameraRequest)
-        imageView = findViewById(R.id.imageView)
-        val photoButton: Button = findViewById(R.id.photoButton)
-        photoButton.setOnClickListener {
-            val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-            startActivityForResult(cameraIntent, cameraRequest)
+
+        // Request camera permissions
+        if (allPermissionsGranted()) {
+            startCamera()
+        } else {
+            ActivityCompat.requestPermissions(
+                this, REQUIRED_PERMISSIONS, REQUEST_CODE_PERMISSIONS)
         }
+
+        // Set up the listener for take photo button
+        camera_capture_button.setOnClickListener { takePhoto() }
+
+        outputDirectory = getOutputDirectory()
+
+        cameraExecutor = Executors.newSingleThreadExecutor()
     }
+
+    private fun takePhoto() {}
+
+    private fun startCamera() {}
+
+    private fun allPermissionsGranted() = REQUIRED_PERMISSIONS.all {
+        ContextCompat.checkSelfPermission(
+            baseContext, it) == PackageManager.PERMISSION_GRANTED
+    }
+
+    private fun getOutputDirectory(): File {
+        val mediaDir = externalMediaDirs.firstOrNull()?.let {
+            File(it, resources.getString(R.string.app_name)).apply { mkdirs() } }
+        return if (mediaDir != null && mediaDir.exists())
+            mediaDir else filesDir
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        cameraExecutor.shutdown()
+    }
+
+    companion object {
+        private const val TAG = "CameraXBasic"
+        private const val FILENAME_FORMAT = "yyyy-MM-dd-HH-mm-ss-SSS"
+        private const val REQUEST_CODE_PERMISSIONS = 10
+        private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
+    }
+    private val permReqLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { permissions ->
+            if (allPermissionsGranted()) {
+                startCamera()
+            } else {
+                Toast.makeText(this,
+                    "Permissions not granted by the user.",
+                    Toast.LENGTH_SHORT).show()
+                finish()
+            }
+        }
 }

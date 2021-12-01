@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sudokuapp">
-
     <uses-feature
-        android:name="android.hardware.camera"
+        android:name="android.hardware.camera.any"
         android:required="true" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_new_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SudokuApp">
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr" />
         <activity
             android:name=".CameraActivity"
             android:exported="true" >
