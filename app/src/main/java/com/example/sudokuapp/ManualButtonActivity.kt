@@ -11,250 +11,274 @@ class ManualButtonActivity : AppCompatActivity() {
         setContentView(R.layout.activity_manualbutton)
         grabAllText()
     }
-    fun grabAllText() {
-        var totalValueOfTable : String = ""
+    private fun grabAllText() {
+        var totalSumOfTable : String = ""
 
-        val editText : String = findViewById<EditText>(R.id.text1).text.toString()
-        totalValueOfTable += editText
+        var editText : String = findViewById<EditText>(R.id.text1).text.toString()
+        if (editText == null) {
+            editText = "0"
+        }
+        totalSumOfTable += editText
 
-        val editText2 : String = findViewById<EditText>(R.id.text2).text.toString()
-        totalValueOfTable += editText2
+        var editText2 : String = findViewById<EditText>(R.id.text2).text.toString()
+        if (editText2 == null) {
+            editText2 = "0"
+        }
+        totalSumOfTable += editText2
 
-        val editText3 : String = findViewById<EditText>(R.id.text3).text.toString()
-        totalValueOfTable += editText3
+        var editText3 : String = findViewById<EditText>(R.id.text3).text.toString()
+        if (editText3 == null) {
+            editText3 = "0"
+        }
+        totalSumOfTable += editText3
 
-        val editText4 : String = findViewById<EditText>(R.id.text4).text.toString()
-        totalValueOfTable += editText4
+        var editText4 : String = findViewById<EditText>(R.id.text4).text.toString()
+        if (editText4 == null) {
+            editText4 = "0"
+        }
+        totalSumOfTable += editText4
 
-        val editText5 : String = findViewById<EditText>(R.id.text5).text.toString()
-        totalValueOfTable += editText5
+        var editText5 : String = findViewById<EditText>(R.id.text5).text.toString()
+        if (editText5 == null) {
+            editText5 = "0"
+        }
+        totalSumOfTable += editText5
 
-        val editText6 : String = findViewById<EditText>(R.id.text6).text.toString()
-        totalValueOfTable += editText6
+        var editText6 : String = findViewById<EditText>(R.id.text6).text.toString()
+        if (editText6 == null) {
+            editText6 = "0"
+        }
+        totalSumOfTable += editText6
 
-        val editText7 : String = findViewById<EditText>(R.id.text7).text.toString()
-        totalValueOfTable += editText7
+        var editText7 : String = findViewById<EditText>(R.id.text7).text.toString()
+        if (editText7 == null) {
+            editText7 = "0"
+        }
+        totalSumOfTable += editText7
 
-        val editText8 : String = findViewById<EditText>(R.id.text8).text.toString()
-        totalValueOfTable += editText8
+        var editText8 : String = findViewById<EditText>(R.id.text8).text.toString()
+        if (editText8 == null) {
+            editText8 = "0"
+        }
+        totalSumOfTable += editText8
 
-        val editText9 : String = findViewById<EditText>(R.id.text9).text.toString()
-        totalValueOfTable += editText9
+        var editText9 : String = findViewById<EditText>(R.id.text9).text.toString()
+        totalSumOfTable += editText9
 
-        val editText10 : String = findViewById<EditText>(R.id.text10).text.toString()
-        totalValueOfTable += editText10
+        var editText10 : String = findViewById<EditText>(R.id.text10).text.toString()
+        totalSumOfTable += editText10
 
-        val editText11 : String = findViewById<EditText>(R.id.text11).text.toString()
-        totalValueOfTable += editText11
+        var editText11 : String = findViewById<EditText>(R.id.text11).text.toString()
+        totalSumOfTable += editText11
 
-        val editText12 : String = findViewById<EditText>(R.id.text12).text.toString()
-        totalValueOfTable += editText12
+        var editText12 : String = findViewById<EditText>(R.id.text12).text.toString()
+        totalSumOfTable += editText12
 
-        val editText13 : String = findViewById<EditText>(R.id.text13).text.toString()
-        totalValueOfTable += editText13
+        var editText13 : String = findViewById<EditText>(R.id.text13).text.toString()
+        totalSumOfTable += editText13
 
-        val editText14 : String = findViewById<EditText>(R.id.text14).text.toString()
-        totalValueOfTable += editText14
+        var editText14 : String = findViewById<EditText>(R.id.text14).text.toString()
+        totalSumOfTable += editText14
 
-        val editText15 : String = findViewById<EditText>(R.id.text15).text.toString()
-        totalValueOfTable += editText15
+        var editText15 : String = findViewById<EditText>(R.id.text15).text.toString()
+        totalSumOfTable += editText15
 
-        val editText16 : String = findViewById<EditText>(R.id.text16).text.toString()
-        totalValueOfTable += editText16
+        var editText16 : String = findViewById<EditText>(R.id.text16).text.toString()
+        totalSumOfTable += editText16
 
-        val editText17 : String = findViewById<EditText>(R.id.text17).text.toString()
-        totalValueOfTable += editText17
+        var editText17 : String = findViewById<EditText>(R.id.text17).text.toString()
+        totalSumOfTable += editText17
 
-        val editText18 : String = findViewById<EditText>(R.id.text18).text.toString()
-        totalValueOfTable += editText18
+        var editText18 : String = findViewById<EditText>(R.id.text18).text.toString()
+        totalSumOfTable += editText18
 
-        val editText19 : String = findViewById<EditText>(R.id.text19).text.toString()
-        totalValueOfTable += editText19
+        var editText19 : String = findViewById<EditText>(R.id.text19).text.toString()
+        totalSumOfTable += editText19
 
-        val editText20 : String = findViewById<EditText>(R.id.text20).text.toString()
-        totalValueOfTable += editText20
+        var editText20 : String = findViewById<EditText>(R.id.text20).text.toString()
+        totalSumOfTable += editText20
 
-        val editText21 : String = findViewById<EditText>(R.id.text21).text.toString()
-        totalValueOfTable += editText21
+        var editText21 : String = findViewById<EditText>(R.id.text21).text.toString()
+        totalSumOfTable += editText21
 
-        val editText22 : String = findViewById<EditText>(R.id.text22).text.toString()
-        totalValueOfTable += editText22
+        var editText22 : String = findViewById<EditText>(R.id.text22).text.toString()
+        totalSumOfTable += editText22
 
-        val editText23 : String = findViewById<EditText>(R.id.text23).text.toString()
-        totalValueOfTable += editText23
+        var editText23 : String = findViewById<EditText>(R.id.text23).text.toString()
+        totalSumOfTable += editText23
 
-        val editText24 : String = findViewById<EditText>(R.id.text24).text.toString()
-        totalValueOfTable += editText24
+        var editText24 : String = findViewById<EditText>(R.id.text24).text.toString()
+        totalSumOfTable += editText24
 
-        val editText25 : String = findViewById<EditText>(R.id.text25).text.toString()
-        totalValueOfTable += editText25
+        var editText25 : String = findViewById<EditText>(R.id.text25).text.toString()
+        totalSumOfTable += editText25
 
-        val editText26 : String = findViewById<EditText>(R.id.text26).text.toString()
-        totalValueOfTable += editText26
+        var editText26 : String = findViewById<EditText>(R.id.text26).text.toString()
+        totalSumOfTable += editText26
 
-        val editText27 : String = findViewById<EditText>(R.id.text27).text.toString()
-        totalValueOfTable += editText27
+        var editText27 : String = findViewById<EditText>(R.id.text27).text.toString()
+        totalSumOfTable += editText27
 
-        val editText28 : String = findViewById<EditText>(R.id.text28).text.toString()
-        totalValueOfTable += editText28
+        var editText28 : String = findViewById<EditText>(R.id.text28).text.toString()
+        totalSumOfTable += editText28
 
-        val editText29 : String = findViewById<EditText>(R.id.text29).text.toString()
-        totalValueOfTable += editText29
+        var editText29 : String = findViewById<EditText>(R.id.text29).text.toString()
+        totalSumOfTable += editText29
 
-        val editText30 : String = findViewById<EditText>(R.id.text30).text.toString()
-        totalValueOfTable += editText30
+        var editText30 : String = findViewById<EditText>(R.id.text30).text.toString()
+        totalSumOfTable += editText30
 
-        val editText31 : String = findViewById<EditText>(R.id.text31).text.toString()
-        totalValueOfTable += editText31
+        var editText31 : String = findViewById<EditText>(R.id.text31).text.toString()
+        totalSumOfTable += editText31
 
-        val editText32 : String = findViewById<EditText>(R.id.text32).text.toString()
-        totalValueOfTable += editText32
+        var editText32 : String = findViewById<EditText>(R.id.text32).text.toString()
+        totalSumOfTable += editText32
 
-        val editText33 : String = findViewById<EditText>(R.id.text33).text.toString()
-        totalValueOfTable += editText33
+        var editText33 : String = findViewById<EditText>(R.id.text33).text.toString()
+        totalSumOfTable += editText33
 
-        val editText34 : String = findViewById<EditText>(R.id.text34).text.toString()
-        totalValueOfTable += editText34
+        var editText34 : String = findViewById<EditText>(R.id.text34).text.toString()
+        totalSumOfTable += editText34
 
-        val editText35 : String = findViewById<EditText>(R.id.text35).text.toString()
-        totalValueOfTable += editText35
+        var editText35 : String = findViewById<EditText>(R.id.text35).text.toString()
+        totalSumOfTable += editText35
 
-        val editText36 : String = findViewById<EditText>(R.id.text36).text.toString()
-        totalValueOfTable += editText36
+        var editText36 : String = findViewById<EditText>(R.id.text36).text.toString()
+        totalSumOfTable += editText36
 
-        val editText37 : String = findViewById<EditText>(R.id.text37).text.toString()
-        totalValueOfTable += editText37
+        var editText37 : String = findViewById<EditText>(R.id.text37).text.toString()
+        totalSumOfTable += editText37
 
-        val editText38 : String = findViewById<EditText>(R.id.text38).text.toString()
-        totalValueOfTable += editText38
+        var editText38 : String = findViewById<EditText>(R.id.text38).text.toString()
+        totalSumOfTable += editText38
 
-        val editText39 : String = findViewById<EditText>(R.id.text39).text.toString()
-        totalValueOfTable += editText39
+        var editText39 : String = findViewById<EditText>(R.id.text39).text.toString()
+        totalSumOfTable += editText39
 
-        val editText40 : String = findViewById<EditText>(R.id.text40).text.toString()
-        totalValueOfTable += editText40
+        var editText40 : String = findViewById<EditText>(R.id.text40).text.toString()
+        totalSumOfTable += editText40
 
-        val editText41 : String = findViewById<EditText>(R.id.text41).text.toString()
-        totalValueOfTable += editText41
+        var editText41 : String = findViewById<EditText>(R.id.text41).text.toString()
+        totalSumOfTable += editText41
 
-        val editText42 : String = findViewById<EditText>(R.id.text42).text.toString()
-        totalValueOfTable += editText42
+        var editText42 : String = findViewById<EditText>(R.id.text42).text.toString()
+        totalSumOfTable += editText42
 
-        val editText43 : String = findViewById<EditText>(R.id.text43).text.toString()
-        totalValueOfTable += editText43
+        var editText43 : String = findViewById<EditText>(R.id.text43).text.toString()
+        totalSumOfTable += editText43
 
-        val editText44 : String = findViewById<EditText>(R.id.text44).text.toString()
-        totalValueOfTable += editText44
+        var editText44 : String = findViewById<EditText>(R.id.text44).text.toString()
+        totalSumOfTable += editText44
 
-        val editText45 : String = findViewById<EditText>(R.id.text45).text.toString()
-        totalValueOfTable += editText45
+        var editText45 : String = findViewById<EditText>(R.id.text45).text.toString()
+        totalSumOfTable += editText45
 
-        val editText46 : String = findViewById<EditText>(R.id.text46).text.toString()
-        totalValueOfTable += editText46
+        var editText46 : String = findViewById<EditText>(R.id.text46).text.toString()
+        totalSumOfTable += editText46
 
-        val editText47 : String = findViewById<EditText>(R.id.text47).text.toString()
-        totalValueOfTable += editText47
+        var editText47 : String = findViewById<EditText>(R.id.text47).text.toString()
+        totalSumOfTable += editText47
 
-        val editText48 : String = findViewById<EditText>(R.id.text48).text.toString()
-        totalValueOfTable += editText48
+        var editText48 : String = findViewById<EditText>(R.id.text48).text.toString()
+        totalSumOfTable += editText48
 
-        val editText49 : String = findViewById<EditText>(R.id.text49).text.toString()
-        totalValueOfTable += editText49
+        var editText49 : String = findViewById<EditText>(R.id.text49).text.toString()
+        totalSumOfTable += editText49
 
-        val editText50 : String = findViewById<EditText>(R.id.text50).text.toString()
-        totalValueOfTable += editText50
+        var editText50 : String = findViewById<EditText>(R.id.text50).text.toString()
+        totalSumOfTable += editText50
 
-        val editText51 : String = findViewById<EditText>(R.id.text51).text.toString()
-        totalValueOfTable += editText51
+        var editText51 : String = findViewById<EditText>(R.id.text51).text.toString()
+        totalSumOfTable += editText51
 
-        val editText52 : String = findViewById<EditText>(R.id.text52).text.toString()
-        totalValueOfTable += editText52
+        var editText52 : String = findViewById<EditText>(R.id.text52).text.toString()
+        totalSumOfTable += editText52
 
-        val editText53 : String = findViewById<EditText>(R.id.text53).text.toString()
-        totalValueOfTable += editText53
+        var editText53 : String = findViewById<EditText>(R.id.text53).text.toString()
+        totalSumOfTable += editText53
 
-        val editText54 : String = findViewById<EditText>(R.id.text54).text.toString()
-        totalValueOfTable += editText54
+        var editText54 : String = findViewById<EditText>(R.id.text54).text.toString()
+        totalSumOfTable += editText54
 
-        val editText55 : String = findViewById<EditText>(R.id.text55).text.toString()
-        totalValueOfTable += editText55
+        var editText55 : String = findViewById<EditText>(R.id.text55).text.toString()
+        totalSumOfTable += editText55
 
-        val editText56 : String = findViewById<EditText>(R.id.text56).text.toString()
-        totalValueOfTable += editText56
+        var editText56 : String = findViewById<EditText>(R.id.text56).text.toString()
+        totalSumOfTable += editText56
 
-        val editText57 : String = findViewById<EditText>(R.id.text57).text.toString()
-        totalValueOfTable += editText57
+        var editText57 : String = findViewById<EditText>(R.id.text57).text.toString()
+        totalSumOfTable += editText57
 
-        val editText58 : String = findViewById<EditText>(R.id.text58).text.toString()
-        totalValueOfTable += editText58
+        var editText58 : String = findViewById<EditText>(R.id.text58).text.toString()
+        totalSumOfTable += editText58
 
-        val editText59 : String = findViewById<EditText>(R.id.text59).text.toString()
-        totalValueOfTable += editText59
+        var editText59 : String = findViewById<EditText>(R.id.text59).text.toString()
+        totalSumOfTable += editText59
 
-        val editText60 : String = findViewById<EditText>(R.id.text60).text.toString()
-        totalValueOfTable += editText60
+        var editText60 : String = findViewById<EditText>(R.id.text60).text.toString()
+        totalSumOfTable += editText60
 
-        val editText61 : String = findViewById<EditText>(R.id.text61).text.toString()
-        totalValueOfTable += editText61
+        var editText61 : String = findViewById<EditText>(R.id.text61).text.toString()
+        totalSumOfTable += editText61
 
-        val editText62 : String = findViewById<EditText>(R.id.text62).text.toString()
-        totalValueOfTable += editText62
+        var editText62 : String = findViewById<EditText>(R.id.text62).text.toString()
+        totalSumOfTable += editText62
 
-        val editText63 : String = findViewById<EditText>(R.id.text63).text.toString()
-        totalValueOfTable += editText63
+        var editText63 : String = findViewById<EditText>(R.id.text63).text.toString()
+        totalSumOfTable += editText63
 
-        val editText64 : String = findViewById<EditText>(R.id.text64).text.toString()
-        totalValueOfTable += editText64
+        var editText64 : String = findViewById<EditText>(R.id.text64).text.toString()
+        totalSumOfTable += editText64
 
-        val editText65 : String = findViewById<EditText>(R.id.text65).text.toString()
-        totalValueOfTable += editText65
+        var editText65 : String = findViewById<EditText>(R.id.text65).text.toString()
+        totalSumOfTable += editText65
 
-        val editText66 : String = findViewById<EditText>(R.id.text66).text.toString()
-        totalValueOfTable += editText66
+        var editText66 : String = findViewById<EditText>(R.id.text66).text.toString()
+        totalSumOfTable += editText66
 
-        val editText67 : String = findViewById<EditText>(R.id.text67).text.toString()
-        totalValueOfTable += editText67
+        var editText67 : String = findViewById<EditText>(R.id.text67).text.toString()
+        totalSumOfTable += editText67
 
-        val editText68 : String = findViewById<EditText>(R.id.text68).text.toString()
-        totalValueOfTable += editText68
+        var editText68 : String = findViewById<EditText>(R.id.text68).text.toString()
+        totalSumOfTable += editText68
 
-        val editText69 : String = findViewById<EditText>(R.id.text69).text.toString()
-        totalValueOfTable += editText69
+        var editText69 : String = findViewById<EditText>(R.id.text69).text.toString()
+        totalSumOfTable += editText69
 
-        val editText70 : String = findViewById<EditText>(R.id.text70).text.toString()
-        totalValueOfTable += editText70
+        var editText70 : String = findViewById<EditText>(R.id.text70).text.toString()
+        totalSumOfTable += editText70
 
-        val editText71 : String = findViewById<EditText>(R.id.text71).text.toString()
-        totalValueOfTable += editText71
+        var editText71 : String = findViewById<EditText>(R.id.text71).text.toString()
+        totalSumOfTable += editText71
 
-        val editText72 : String = findViewById<EditText>(R.id.text72).text.toString()
-        totalValueOfTable += editText72
+        var editText72 : String = findViewById<EditText>(R.id.text72).text.toString()
+        totalSumOfTable += editText72
 
-        val editText73 : String = findViewById<EditText>(R.id.text73).text.toString()
-        totalValueOfTable += editText73
+        var editText73 : String = findViewById<EditText>(R.id.text73).text.toString()
+        totalSumOfTable += editText73
 
-        val editText74 : String = findViewById<EditText>(R.id.text74).text.toString()
-        totalValueOfTable += editText74
+        var editText74 : String = findViewById<EditText>(R.id.text74).text.toString()
+        totalSumOfTable += editText74
 
-        val editText75 : String = findViewById<EditText>(R.id.text75).text.toString()
-        totalValueOfTable += editText75
+        var editText75 : String = findViewById<EditText>(R.id.text75).text.toString()
+        totalSumOfTable += editText75
 
-        val editText76 : String = findViewById<EditText>(R.id.text76).text.toString()
-        totalValueOfTable += editText76
+        var editText76 : String = findViewById<EditText>(R.id.text76).text.toString()
+        totalSumOfTable += editText76
 
-        val editText77 : String = findViewById<EditText>(R.id.text77).text.toString()
-        totalValueOfTable += editText77
+        var editText77 : String = findViewById<EditText>(R.id.text77).text.toString()
+        totalSumOfTable += editText77
 
-        val editText78 : String = findViewById<EditText>(R.id.text78).text.toString()
-        totalValueOfTable += editText78
+        var editText78 : String = findViewById<EditText>(R.id.text78).text.toString()
+        totalSumOfTable += editText78
 
-        val editText79 : String = findViewById<EditText>(R.id.text79).text.toString()
-        totalValueOfTable += editText79
+        var editText79 : String = findViewById<EditText>(R.id.text79).text.toString()
+        totalSumOfTable += editText79
 
-        val editText80 : String = findViewById<EditText>(R.id.text80).text.toString()
-        totalValueOfTable += editText80
+        var editText80 : String = findViewById<EditText>(R.id.text80).text.toString()
+        totalSumOfTable += editText80
 
-        val editText81 : String = findViewById<EditText>(R.id.text81).text.toString()
-        totalValueOfTable += editText81
+        var editText81 : String = findViewById<EditText>(R.id.text81).text.toString()
+        totalSumOfTable += editText81
     }
 }
