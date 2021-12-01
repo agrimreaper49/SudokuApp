@@ -63,21 +63,39 @@ class ManualButtonActivity : AppCompatActivity() {
         totalSumOfTable += editText8
 
         var editText9 : String = findViewById<EditText>(R.id.text9).text.toString()
+        if (editText9 == null) {
+            editText9 = "0"
+        }
         totalSumOfTable += editText9
 
         var editText10 : String = findViewById<EditText>(R.id.text10).text.toString()
+        if (editText10 == null) {
+            editText10 = "0"
+        }
         totalSumOfTable += editText10
 
         var editText11 : String = findViewById<EditText>(R.id.text11).text.toString()
+        if (editText11 == null) {
+            editText11 = "0"
+        }
         totalSumOfTable += editText11
 
         var editText12 : String = findViewById<EditText>(R.id.text12).text.toString()
+        if (editText12 == null) {
+            editText12 = "0"
+        }
         totalSumOfTable += editText12
 
         var editText13 : String = findViewById<EditText>(R.id.text13).text.toString()
+        if (editText13 == null) {
+            editText13 = "0"
+        }
         totalSumOfTable += editText13
 
         var editText14 : String = findViewById<EditText>(R.id.text14).text.toString()
+        if (editText14 == null) {
+            editText14 = "0"
+        }
         totalSumOfTable += editText14
 
         var editText15 : String = findViewById<EditText>(R.id.text15).text.toString()
