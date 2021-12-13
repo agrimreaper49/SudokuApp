@@ -33,6 +33,7 @@ class CameraActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera)
 
+
         // Request camera permissions
         if (allPermissionsGranted()) {
             startCamera()
@@ -50,6 +51,8 @@ class CameraActivity : AppCompatActivity() {
     }
 
     private fun takePhoto() {
+        //Toast.makeText(baseContext, "Press", Toast.LENGTH_SHORT).show()
+
         // Get a stable reference of the modifiable image capture use case
         val imageCapture = imageCapture ?: return
 
@@ -61,6 +64,7 @@ class CameraActivity : AppCompatActivity() {
 
         // Create output options object which contains file + metadata
         val outputOptions = ImageCapture.OutputFileOptions.Builder(photoFile).build()
+        Toast.makeText(baseContext, "4", Toast.LENGTH_SHORT).show()
 
         // Set up image capture listener, which is triggered after photo has
         // been taken
@@ -68,6 +72,8 @@ class CameraActivity : AppCompatActivity() {
             outputOptions, ContextCompat.getMainExecutor(this), object : ImageCapture.OnImageSavedCallback {
                 override fun onError(exc: ImageCaptureException) {
                     Log.e(TAG, "Photo capture failed: ${exc.message}", exc)
+                    Toast.makeText(baseContext, "fail", Toast.LENGTH_SHORT).show()
+
                 }
 
                 override fun onImageSaved(output: ImageCapture.OutputFileResults) {
@@ -92,21 +98,22 @@ class CameraActivity : AppCompatActivity() {
                 .also {
                     it.setSurfaceProvider(viewFinder.surfaceProvider)
                 }
+            imageCapture = ImageCapture.Builder().build()
 
             // Select back camera as a default
             val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
 
-//            try {
-//                // Unbind use cases before rebinding
-//                cameraProvider.unbindAll()
-//
-//                // Bind use cases to camera
-//                cameraProvider.bindToLifecycle(
-//                    this, cameraSelector, preview)
-//
-//            } catch(exc: Exception) {
-//                Log.e(TAG, "Use case binding failed", exc)
-//            }
+            try {
+                // Unbind use cases before rebinding
+                cameraProvider.unbindAll()
+
+                // Bind use cases to camera
+                cameraProvider.bindToLifecycle(
+                    this, cameraSelector, preview, imageCapture)
+
+            } catch(exc: Exception) {
+                Log.e(TAG, "Use case binding failed", exc)
+            }
 
         }, ContextCompat.getMainExecutor(this))
     }
