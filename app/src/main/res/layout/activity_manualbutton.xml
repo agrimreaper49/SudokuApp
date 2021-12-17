@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="4dp"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="4dp">
 
     <TextView
         android:id="@+id/textView2"
@@ -58,756 +58,770 @@
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text9"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text10"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text11"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text12"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text13"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text14"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text15"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text16"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text17"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text18"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text19"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text20"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text21"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text22"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text23"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text24"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text25"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text26"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text27"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text28"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text29"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text30"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text31"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text32"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text33"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text34"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text35"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text36"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text37"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/text38"
-                android:inputType="number"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/text39"
-                android:inputType="number"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text40"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text41"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text42"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text43"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text44"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text45"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text46"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text47"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text48"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text49"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text50"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text51"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text52"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text53"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text54"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text55"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text56"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text57"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text58"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text59"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text60"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text61"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text62"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/text63"
-                android:inputType="number"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text64"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text65"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text66"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text67"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text68"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/text69"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text70"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text71"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/text72"
-                android:digits="123456789"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
         </TableRow>
 
         <TableRow android:background="@drawable/table_border">
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text73"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text74"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text75"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text76"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text77"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text78"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text79"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text80"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
 
             <EditText
-                android:inputType="number"
-                android:digits="123456789"
                 android:id="@+id/text81"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/table_border" />
+                android:background="@drawable/table_border"
+                android:digits="123456789"
+                android:inputType="number" />
         </TableRow>
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="562dp"
+        android:text="Go Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
