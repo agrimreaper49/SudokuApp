@@ -812,16 +812,26 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="94dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="162dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="110dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginBottom="562dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="569dp"
+        android:background="#fff"
         android:text="Go Back"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="106dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
