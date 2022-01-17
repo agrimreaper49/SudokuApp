@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">SudokuApp</string>
-    <string name="textview_welcome">Welcome! Select an option to begin!</string>
-    <string name="button_manual">Manual</string>
+    <string name="textview_welcome">Welcome! Click the button below to get started!</string>
+    <string name="button_manual">Start Solving</string>
     <string name="button_scan">Scan</string>
+    <string name="instructions">Leave slots with unknown values empty</string>
+    <string name="solve">Solve</string>
+    <string name="imagedescwordart">Suduko Word Art in Uzbekistan country shape</string>
 </resources>

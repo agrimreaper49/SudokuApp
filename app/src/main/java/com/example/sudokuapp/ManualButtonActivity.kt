@@ -65,7 +65,6 @@ class ManualButtonActivity : AppCompatActivity() {
     private fun grabAllText()  : String {
         var totalSumOfTable = ""
 
-        val values = ArrayList<String>()
         val table = findViewById<TableLayout>(R.id.tableLayout)
         for (i in 0..8) {
             val row = (table.getChildAt(i)) as TableRow

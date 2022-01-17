@@ -24,7 +24,21 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/rc/rjd8yjw16119zqlyn08tqvf80000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Austin\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="opacityPercent" value="60" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\Austin\Downloads\WordArt.png" />
+                                                <entry key="opacityPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -54,6 +68,13 @@
                                       </entry>
                                     </map>
                                   </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="C:\Users\Austin\Downloads\WordArt.png" />
+                                      <entry key="outputName" value="uzbekistanwordart" />
+                                    </map>
+                                  </option>
                                 </PersistentState>
                               </value>
                             </entry>
@@ -68,7 +89,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/rc/rjd8yjw16119zqlyn08tqvf80000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Austin\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -80,7 +101,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$USER_HOME$" />
+                                                <entry key="imagePath" value="C:\Users\Austin" />
                                                 <entry key="scalingPercent" value="58" />
                                               </map>
                                             </option>
@@ -131,7 +152,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/rc/rjd8yjw16119zqlyn08tqvf80000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Austin\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -175,7 +196,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/rc/rjd8yjw16119zqlyn08tqvf80000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Austin\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -218,7 +239,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="$USER_HOME$/Downloads/uzbekflag.png" />
+                                                <entry key="imagePath" value="C:\Users\Austin\Downloads" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -230,7 +251,6 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="text" value="" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -251,7 +271,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="/private/var/folders/rc/rjd8yjw16119zqlyn08tqvf80000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Austin\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -299,7 +319,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="TV_BANNER" />
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
