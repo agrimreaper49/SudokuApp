@@ -5,12 +5,21 @@
       <map>
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/bg_gradient.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/bottomborder.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/bottomleftborder.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/bottomrightborder.xml" value="0.3828125" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/img_logo.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/img_logo_old.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/leftborder.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/rightborder.xml" value="0.3828125" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/splash_background.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/table_border.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/topborder.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/topleft.xml" value="0.3828125" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/drawable/toprightborder.xml" value="0.3828125" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/layout/activity_manualbutton.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/layout/activity_manualbutton.xml" value="0.5" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/layout/activity_splashscreen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Austin/StudioProjects/SudokuApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
       </map>
