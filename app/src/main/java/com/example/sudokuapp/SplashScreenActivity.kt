@@ -3,9 +3,11 @@ package com.example.sudokuapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.content.ContextCompat.startActivity
 import java.lang.Exception
 
 class SplashScreenActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
@@ -13,7 +15,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val background = object : Thread() {
             override fun run() {
                 try {
-                    Thread.sleep(7000)
+                    Thread.sleep(5000)
                     val intent = Intent(baseContext, MainActivity::class.java)
                     startActivity(intent)
                 } catch (e: Exception) {
