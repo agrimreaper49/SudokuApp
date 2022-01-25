@@ -12,7 +12,11 @@ class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
-
+        val r = findViewById<RelativeLayout>(R.id.main)
+        r.setOnClickListener{
+            val intent = Intent(baseContext, MainActivity::class.java)
+            startActivity(intent)
+        }
         val background = object : Thread() {
             override fun run() {
                 try {
@@ -26,10 +30,5 @@ class SplashScreenActivity : AppCompatActivity() {
             }
         }
         background.start()
-        val r = findViewById<RelativeLayout>(R.id.main)
-        r.setOnClickListener{
-            val intent = Intent(baseContext, MainActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
