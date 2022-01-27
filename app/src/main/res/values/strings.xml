@@ -6,4 +6,6 @@
     <string name="instructions">Leave slots with unknown values empty</string>
     <string name="solve">Solve</string>
     <string name="imagedescwordart">Suduko Word Art in Uzbekistan country shape</string>
+    <string name="tryagain">TRY AGAIN</string>
+    <string name="solvedalready">See your solved puzzle below!</string>
 </resources>

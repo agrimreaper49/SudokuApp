@@ -19,9 +19,7 @@ class ManualButtonActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_manualbutton)
 
-        Log.i("info2", "test")
         val actionbar = supportActionBar
-        actionbar!!.title = "Manual Solver"
         supportActionBar?.apply {
             // show custom title in action bar
             customView = actionBarCustomTitle()
@@ -31,21 +29,34 @@ class ManualButtonActivity : AppCompatActivity() {
             setDisplayUseLogoEnabled(true)
             setDisplayHomeAsUpEnabled(true)
             setDisplayHomeAsUpEnabled(true)
-            val buttonsolve = findViewById(R.id.button4) as Button
-            buttonsolve.setOnClickListener {
-//                Toast.makeText(this@ManualButtonActivity, grabAllText(), Toast.LENGTH_LONG).show()
-                var test = "530070000600195000098000060800060003400803001700020006060000280000419005000080079"
-                var test2 = "123456789123456789123456789123456789123456789123465789123456789123456789123456789"
-                Toast.makeText(this@ManualButtonActivity, test, Toast.LENGTH_LONG).show()
-                Toast.makeText(this@ManualButtonActivity, solve(test), Toast.LENGTH_LONG).show()
-//                Toast.makeText(this@ManualButtonActivity, solve(test2), Toast.LENGTH_LONG).show()
+        }
+        val buttonsolve = findViewById(R.id.button4) as Button
+        buttonsolve.setOnClickListener {
+//            var test = "530070000600195000098000060800060003400803001700020006060000280000419005000080079"
+            var input = grabAllText()
+            stringToGrid(input)
 
+            if (checkSolvable()) {
+                Toast.makeText(this@ManualButtonActivity, "Solving...",Toast.LENGTH_LONG).show()
+                var solved = solve()
+                if (!solved.contains("0")) {
+                    val intent = Intent(this@ManualButtonActivity, SolvedActivity::class.java)
+                    intent.putExtra("solved", solved)
+                    intent.putExtra("unsolved", input)
+                    startActivity(intent)
+                }
+                else {
+                    Toast.makeText(this@ManualButtonActivity, "The puzzle you input was not solvable",Toast.LENGTH_LONG).show()
+                }
+            }
+            else {
+                Toast.makeText(this@ManualButtonActivity, "The puzzle you input was not solvable",Toast.LENGTH_LONG).show()
             }
         }
     }
     private fun actionBarCustomTitle():TextView{
         return TextView(this).apply {
-            text = "Manual Solving"
+            text = "Input Puzzle"
 
             val params = LayoutParams(
                 LayoutParams.WRAP_CONTENT,
@@ -70,6 +81,34 @@ class ManualButtonActivity : AppCompatActivity() {
         onBackPressed()
         return true
     }
+    private fun checkSolvable() : Boolean {
+        for (n in 1..9) {
+            for (i in 0..8) {
+                for (j in 0..8) {
+                    if (unsolved[i][j] == n) {
+                        for (f in 0..8) {
+                            if (unsolved[f][j] == n && f != i) {
+                                if (unsolved[i][f] == n && f != j) {
+                                    Log.i("solvable", "false")
+                                    return false
+                                }
+                            }
+                        }
+                        for (xx in ((i / 3) * 3)..((i / 3) * 3 + 2)) {
+                            for (yy in ((j / 3) * 3)..((j / 3) * 3 + 2)) {
+                                if (unsolved[xx][yy] == n && xx != i && yy != j) {
+                                    Log.i("solvable", "false")
+                                    return false
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        Log.i("solvable", "true")
+        return true
+    }
     private fun grabAllText()  : String {
         var totalSumOfTable = ""
 
@@ -87,11 +126,11 @@ class ManualButtonActivity : AppCompatActivity() {
         }
         return totalSumOfTable
     }
-    private fun solve(puzzle : String) : String {
+    private fun stringToGrid(str : String) {
         var r = 0
         var c = 0
         for (s in 0..80) {
-            unsolved[r][c] = puzzle.get(s).toString().toInt()
+            unsolved[r][c] = str.get(s).toString().toInt()
             c += 1
             if (c == 9) {
                 r += 1
@@ -99,20 +138,37 @@ class ManualButtonActivity : AppCompatActivity() {
             }
         }
 
+    }
+    private fun solve() : String {
         var run = true
-        for (i in 0..15) {
-            for (i in 0..8) {
-                traditionalStrategySolve(i + 1)
+        var zBefore = 0
+        var zAfter = 0
+        for (x in 0..8) {
+            for (y in 0..8) {
+                if (unsolved[x][y] == 0) {
+                    zAfter += 1
+                }
+            }
+        }
+        while (run && zBefore != zAfter) {
+            zBefore = zAfter
+            for (p in 0..1) {
+                for (i in 0..8) {
+                    traditionalStrategySolve(i + 1)
+                }
             }
             notThere()
             run = false
+            zAfter = 0
             for (x in 0..8) {
                 for (y in 0..8) {
                     if (unsolved[x][y] == 0) {
                         run = true
+                        zAfter += 1
                     }
                 }
             }
+            Log.i("zerosAfter", zAfter.toString())
         }
         var solvedPuzzle = ""
         for (i in 0..8) {
@@ -138,7 +194,6 @@ class ManualButtonActivity : AppCompatActivity() {
                 }
                 if (unsolved[i][j] == l) {
                     temp = tempFill(i, j, temp)
-
                     for (xx in ((i / 3) * 3)..((i / 3) * 3 + 2)) {
                         for (yy in ((j / 3) * 3)..((j / 3) * 3 + 2)) {
                             temp[xx][yy] = 0
@@ -152,20 +207,12 @@ class ManualButtonActivity : AppCompatActivity() {
     private fun traditionalStrategySolve(num : Int) {
         for (x in 0..2) {
             for(y in 0..2) {
-//                Log.i("info", "y:"+ (y).toString())
-
                 var xx = 0
                 var yy = 0
                 var count = 0
-//                Log.i("info", (x * 3).toString() + " "+ ((x + 1) * 3 - 1).toString())
-
                 for (i in (x * 3)..((x + 1) * 3 - 1)) {
-
                     for (j in (y * 3)..((y + 1) * 3 - 1)) {
-//                        Log.i("info", i.toString() + " " + j.toString())
-//                        Log.i("info", availableLocations(num)[i][j].toString())
                         if (availableLocations(num)[i][j] == num) {
-//                            Log.i("info", i.toString() + " " + j.toString())
                             xx = i
                             yy = j
                             count = count + 1
